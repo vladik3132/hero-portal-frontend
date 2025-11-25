@@ -16,11 +16,9 @@ const firebaseConfig = {
   appId: "1:782851820022:web:4e8ed29c0087d43a9e1fd7",
 };
 
-// Ініціалізуємо, якщо не ініціалізовано
 const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
-// Export Firestore DB
 export const db = getFirestore(app);
 
-// Export Auth
 export const auth = getAuth(app);
+auth.useDeviceLanguage();
