@@ -7,7 +7,7 @@ export default function News() {
 
   const loadNews = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/news");
+      const res = await fetch("https://hero-portal-backend-production.up.railway.app/api/news");
       if (!res.ok) throw new Error("Failed to load");
       const data = await res.json();
       setNews(data);
