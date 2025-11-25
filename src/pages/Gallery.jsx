@@ -7,7 +7,7 @@ export default function Gallery() {
   useEffect(() => {
     async function load() {
       try {
-        const res = await fetch("http://localhost:5000/api/gallery");
+        const res = await fetch("https://hero-portal-backend-production.up.railway.app/api/gallery");
         const data = await res.json();
         setPhotos(data);
       } catch (e) {
