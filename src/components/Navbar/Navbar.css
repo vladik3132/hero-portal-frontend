@@ -1,0 +1,43 @@
+/* Контейнер */
+.navbar {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+/* Логотип */
+.logo {
+  font-size: 26px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+
+/* Меню (як футер — один під одним) */
+.navbar-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin: 8px 0;
+}
+
+.navbar-links a,
+.logout-btn {
+  color: #ffd500;
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+
+.navbar-links a:hover {
+  color: white;
+}
+
+.logout-btn {
+  cursor: pointer;
+}

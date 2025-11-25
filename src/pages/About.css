@@ -1,0 +1,36 @@
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+.about-container {
+  padding: 20px;
+  color: #fff; /* БІЛИЙ ТЕКСТ */
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+
+.about-page h1 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.about-page h2 {
+  margin-top: 25px;
+  font-size: 22px;
+  color: #ffd500;
+}
+
+.about-page p,
+.about-page li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  opacity: 0.9;
+}
+
+.about-page ul {
+  padding-left: 20px;
+}

@@ -1,0 +1,66 @@
+.hero-page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  color: #fff;
+}
+
+.back-btn {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  color: #fff;
+}
+
+.hero-page__card {
+  background: #fff;
+  color: #000;
+  border-radius: 0;
+  padding: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.hero-page__photo {
+  width: 100%;
+  border-radius: 0;
+  object-fit: cover;
+  max-height: 450px;
+}
+
+.hero-page__name {
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+.hero-page__category {
+  font-size: 18px;
+  color: #005bbb;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.hero-page__desc {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 1.5em;
+}
+
+.hero-page__awards {
+  margin-top: 15px;
+}
+
+.award-badge {
+  display: inline-block;
+  background: #ffd500;
+  color: #000;
+  padding: 6px 14px;
+  border-radius: 0;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
