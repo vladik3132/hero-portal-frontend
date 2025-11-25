@@ -202,12 +202,7 @@ export default function AdminPage() {
                 >
                   Редагувати
                 </button>
-                <button
-                  className="admin-delete-btn"
-                  onClick={() => deleteHero(h.id)}
-                >
-                  Видалити
-                </button>
+
               </div>
             </div>
           ))}
